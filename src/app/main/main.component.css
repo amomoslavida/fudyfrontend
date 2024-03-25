@@ -1,0 +1,14 @@
+/* Adjust the styling for the welcome message */
+mat-card-title {
+  color: #333;
+}
+
+mat-card {
+  margin: 20px auto;
+  max-width: 600px; /* Set a max width for the card */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: add a subtle shadow for depth */
+}
+
+mat-card-content p {
+  margin-top: 20px; /* Add some spacing if there's more content below the title */
+}

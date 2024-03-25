@@ -1,0 +1,19 @@
+.signup-container {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+mat-card {
+  padding: 20px;
+}
+
+mat-form-field {
+  width: 100%; /* Ensure form fields take up the full width */
+  margin-bottom: 16px; /* Add some spacing between form fields */
+}
+
+.error-message {
+  color: #f44336; /* Slightly more vibrant red for errors */
+  margin-top: 10px;
+}

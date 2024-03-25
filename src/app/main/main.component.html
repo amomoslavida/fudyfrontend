@@ -1,0 +1,12 @@
+<!-- Using *ngIf to conditionally display user information -->
+<div *ngIf="currentUser">
+  <mat-card>
+    <mat-card-header>
+      <mat-card-title>Welcome, {{ currentUser.email }}</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <!-- Additional user information can go here -->
+      <p>Welcome to your dashboard!</p>
+    </mat-card-content>
+  </mat-card>
+</div>
